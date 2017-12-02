@@ -1,0 +1,87 @@
+html{
+	background-color: lightblue;
+}
+
+.wrapper{
+	width:100%;
+	background-color: lightblue;
+}
+body{
+	background-color: lightblue;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	color: blue;
+}
+h2{
+	font-size:17px;
+}
+h3{
+	padding:20px;
+}
+.aboutBox{
+	border:solid;
+	border-color: blue;
+	background-color: gold;
+	color: royalblue;
+	width: 200px;
+	text-align: center;
+	font-size: 16px;
+	margin-left:25%;
+	display:inline-block;
+	float:left;
+
+
+}
+#userscore-count{
+	border:solid;
+	border-color: blue;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	display:inline-block;
+	float:left;
+	
+
+}
+#numToMatch{
+	background-color: green;
+	width:200px;
+	height: 200px;
+	display:inline-block;
+	margin-bottom:20px;
+	border:solid;
+	float:left;
+	border-color: blue;
+
+}
+
+#results{
+	background-color: gold;
+	color: royalblue;
+	width:200px;
+	height: 200px;
+	font-size: 16px;
+	border:solid;
+	border-color: blue;
+	display:inline-block;
+	float:left;
+}
+.gemButtons{
+	width:300px;
+	background-color: purple;
+	margin:10px 100px 10px 100px ;
+	border:solid;
+	border-color: blue;
+	padding-left:10px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+ }
+ .col{
+    padding-right: 0;
+    padding-left: 0;
+  }

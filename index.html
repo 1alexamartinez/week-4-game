@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title> Gem Collector 3000 </title>
+
+	<link rel="stylesheet" type="text/css" href= "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+<body>
+	<div class = "wrapper">
+		<div class="pageHeader1">
+			<h1> GEM COLLECTOR 3000!</h1>
+		</div>
+		<!-- Tells user how to play game-->	
+		<div class="aboutBox"><p> <bold>Do you have what it takes to collect the jewels with math?!</bold></p>
+		<p>Click the crystals below to match your score with the computer's score. But beware! each crystal has a hidden value.Can you figure out the correct code to match the computer?!</p>
+		</div>
+		<!--random number will be displayed for user to match here-->
+		<div id="numToMatch"></div>
+		<h3><<<--Try to match this score</h3>
+<!--results will be diplayed here-->
+		<div id="results"></div>
+			<span id="wins"></span>
+			<span id="losses"></span>
+<!--user's guesses will be displayed here-->
+		<div class="col-4">
+			<div id="userscore-count"></div>
+			<h3><<--Your score: </h3>
+		</div>
+<!--this is where the gems will sit-->
+		<div class = "gemButtons">
+			<img id="pink" src="./assets/images/pinkGem.png" height= 100px width= 100px>
+
+			<img  id="red" src="./assets/images/redGem.png" height = 100px width=100px>
+
+			<img id="green" src="./assets/images/greenGem.jpg" height= 100px width= 100px>
+
+			<img id="blue" src="./assets/images/blueGem.png" height= 100px width= 100px>
+				
+		</div>
+		</div>
+	</div>		
+<!-- last div encloses everything in between in the "wrapper"-->
+	</div>
+	<!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    
+</body>
+</html>
